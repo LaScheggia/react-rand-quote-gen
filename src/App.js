@@ -14,6 +14,11 @@ function App() {
     .then(response => response.json());
   }
 
+
+  const generate = async () => {
+    setQuote(await fetchQuote());
+  }
+
   useEffect(async() => {
     setQuote(await fetchQuote());
   }, []);
@@ -21,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Quote quote={quote}/>
-      <button>
+      <button onClick={generate}>
         Pick New quote
       </button>
 
