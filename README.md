@@ -3,7 +3,7 @@ Small random anime quote generator.
 
 ## What does the code do?
 If you click the btn a new anime quote will be picked. 
-(For the quotes i used )
+(For the quotes I used https://animechan.vercel.app/ )
 
 
 
