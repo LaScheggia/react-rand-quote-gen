@@ -1,3 +1,9 @@
+# My first little react project
+Small random anime quote generator.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
